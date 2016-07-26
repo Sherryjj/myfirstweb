@@ -287,3 +287,12 @@ section p{
 	font: 72px "黑体",sans-serif;
 	color: #d45d5c;
 }
+footer{
+	width: 892px;
+	margin:10px auto;
+	border-top: 1px solid #938e8c;
+}
+footer p{
+	color: #D55D5C;
+	float: right;
+}
