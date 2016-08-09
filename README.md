@@ -15,6 +15,7 @@
 * 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_2_1.jpg "task_1_2_1.jpg")
 ---
+
 > 任务三：三栏式布局  
 面向人群：不熟悉基本的 CSS 布局者   
 难度：简单
@@ -25,6 +26,7 @@
 * 掌握position与float的概念以及在布局时的用法
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_3_1.png "task_1_3_1.png")
 ---
+
 > 任务四：定位和居中问题  
 面向人群：始终没搞懂定位问题，每次靠碰运气实现定位的人  
 难度：简单
@@ -34,6 +36,7 @@
 * 深入了解position等CSS属性
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_4_1.png "task_1_4_1.png")
 ---
+
 > 任务五：零基础HTML及CSS编码（二）  
 面向人群：零基础或初学者  
 难度：简单
@@ -49,6 +52,7 @@
 * 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_5_1.jpg "task_1_5_1.jpg")
 ---
+
 > 任务六：通过HTML及CSS模拟报纸排版  
 面向人群：初学者  
 难度：简单
@@ -58,6 +62,7 @@
 * 进一步练习CSS布局
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_6_2.jpg "task_1_6_2.jpg")
 ---
+
 > 任务八：响应式网格（栅格化）布局  
 面向人群：有一定HTML/CSS基础的同学  
 难度：中等
