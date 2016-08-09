@@ -14,6 +14,7 @@
 * 掌握CSS选择器的含义和用法
 * 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_2_1.jpg "task_1_2_1.jpg")
+
 ---
 
 > 任务三：三栏式布局  
@@ -25,6 +26,7 @@
 * 掌握盒模型的概念
 * 掌握position与float的概念以及在布局时的用法
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_3_1.png "task_1_3_1.png")
+
 ---
 
 > 任务四：定位和居中问题  
@@ -35,6 +37,7 @@
 * 实践HTML/CSS布局方式
 * 深入了解position等CSS属性
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_4_1.png "task_1_4_1.png")
+
 ---
 
 > 任务五：零基础HTML及CSS编码（二）  
@@ -51,6 +54,7 @@
 * 掌握CSS选择器的含义和用法
 * 实践并掌握CSS的颜色、字体、背景、边框、盒模型、简单布局等样式的定义方式
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_5_1.jpg "task_1_5_1.jpg")
+
 ---
 
 > 任务六：通过HTML及CSS模拟报纸排版  
@@ -61,6 +65,7 @@
 * 深入掌握CSS中的字体、背景、颜色等属性的设置
 * 进一步练习CSS布局
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_6_2.jpg "task_1_6_2.jpg")
+
 ---
 
 > 任务八：响应式网格（栅格化）布局  
@@ -70,4 +75,5 @@
 #### 任务目标
 * 使用 HTML 与 CSS 实现类似 BootStrap 的响应式 12 栏网格布局，根据屏幕宽度，元素占的栏数不同。
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_8_1.png "task_1_8_1.png")
+
 ---
