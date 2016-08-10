@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>学习CSS 3的新特性</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;list-style-type: none;} 
+		/*简单的css reset*/
+		/*S==表单样式*/
+		table {margin: 0 auto; text-align: left;margin-top: 20px;}
+		table thead th {background-color: black;color: white;}
+		table tbody tr:nth-last-child(n+8) {color: red;}
+		table tbody tr:nth-of-type(even) td {background-color: #bbb;}
+		/*E==表单样式*/
+		/*S==输入框样式*/
+		input {
+			width: 100px;
+			margin: 50px 580px;
+			transition: width 1s;
+		}
+		input:focus{
+			width: 200px;
+			border: 2px solid blue;
+		}
+		/*E==输入框样式*/
+		/*S==Banner效果*/
+		.banner {
+			width: 400px;
+			height: 200px;
+			margin: 0 auto;
+			position: relative;
+			overflow: hidden;
+		}
+		.btns {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+		}
+		.btns a {
+			display: inline-block;
+			height: 30px;
+			width: 30px;
+			background-color: rgba(255, 255, 255, 0.5); 
+			text-decoration: none;
+			text-align: center;
+			line-height: 30px;
+			font-size: 20px;
+			color: white;
+		}
+		#pic_1 {background-color: red;}
+		#pic_2 {background-color: green;}
+		#pic_3 {background-color: blue;}
+		.pics {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+  			right: 0;
+			animation: pics-init 5s linear;
+		}
+		@keyframes pics-init {
+			0% {left: -100%}
+			100% {left: 0%;}
+		}
+		.pics li {
+			position: absolute;
+  			left: -100%;
+  			top: 0;
+  			width: 100%;
+  			height: 100%;
+  			animation: pics-out 5s linear;
+		}
+		@keyframes pics-out {
+			0% {left: 0%;}
+  			100% {left: -100%;}
+		}
+		.pics li:target {
+  		left: 0%;
+  		animation: pics-in 5s linear;
+		}
+		@keyframes pics-in {
+			0% {left: 100%;}
+  			100% {left: 0%;}
+		}
+		/*E==Banner效果*/
+	</style>
+</head>
+<body>
+		<!-- S==表单 -->
+	<table>
+		<thead>
+			<tr>
+				<th>排名</th>
+				<th>网站</th>
+				<th>热度</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>百度前端技术学院</td>
+				<td>12000</td>
+			</tr>
+			<tr>
+				<td>3.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>4.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>5.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>6.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>7.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>8.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>9.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+			<tr>
+				<td>10.</td>
+				<td>百度前端技术学院</td>
+				<td>13000</td>
+			</tr>
+		</tbody>
+	</table>
+	<!-- E==表单 -->
+	<!-- S==实现正常状态和focus状态宽度不一致的input文本输入框，且鼠标焦点进入输入框时，宽度的变化以动画呈现 -->
+	<input type="text" name="fs">
+	<!-- E==实现正常状态和focus状态宽度不一致的input文本输入框，且鼠标焦点进入输入框时，宽度的变化以动画呈现 -->
+	<!-- S==不使用JavaScript，实现一个Banner图轮流播放的效果，且点击右下角的1，2，3可以切换到对应Banner图片 -->
+	<div class="banner">
+	    <ul class="pics">
+			<li id="pic_1"></li>
+			<li id="pic_2"></li>
+			<li id="pic_3"></li>
+		</ul>
+		<div class="btns">
+			<a href="#pic_1">1</a>
+			<a href="#pic_2">2</a>
+			<a href="#pic_3">3</a>
+		</div>
+	</div>
+	<!-- E==不使用JavaScript，实现一个Banner图轮流播放的效果，且点击右下角的1，2，3可以切换到对应Banner图片 -->
+</body>
+</html>

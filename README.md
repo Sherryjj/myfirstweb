@@ -77,3 +77,13 @@
 [示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_8_1.png "task_1_8_1.png")
 
 ---
+
+>任务十二：学习CSS 3的新特性
+面向人群：初学者  
+难度：简单  
+
+#### 任务目标
+* 学习了解 CSS 3 都有哪些新特性，并选取其中一些进行实战小练习
+[示例图](http://7xrp04.com1.z0.glb.clouddn.com/task_1_12_1.jpg "task_1_12_1.jpg")
+
+---
