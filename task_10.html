@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox 布局练习</title>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 20px;
+		}
+		div {
+			box-sizing: border-box;
+		}
+		.flex {
+			border: 1px solid grey;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-justify-content: space-between;
+			justify-content: space-between;  /*定义伸缩项目沿着主轴线的对齐方式*/
+			-webkit-align-items: center;
+			align-items: center;    /*伸缩项目的外边距盒在该行的侧轴上居中放置*/
+		}
+		.flex div {
+			border: 1px solid #f00; 
+			width: 150px;
+		}
+		.flex_item1 {height: 120px;}
+		.flex_item2 {height: 100px;}
+		.flex_item3 {height: 40px;}
+		.flex_item4 {
+			height: 200px;
+			border: 1px solid blue!important;
+		}
+		@media screen and (max-width: 640px) {
+			.flex_item4 {
+				-webkit-order: -1;
+				order: -1;     /*“order”属性可以控制伸缩项目在他们的伸缩容器出现的顺序*/
+			}
+			.flex {
+				-webkit-align-items: flex-start;
+				align-items: flex-start;
+				flex-wrap: wrap;
+				/*定义伸缩容器里是单行还是多行显示，侧轴的方向决定了新行堆放的方向。*/
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex">
+		<div class="flex_item1"></div>
+		<div class="flex_item2"></div>
+		<div class="flex_item3"></div>
+		<div class="flex_item4"></div>
+	</div>
+</body>
+</html>

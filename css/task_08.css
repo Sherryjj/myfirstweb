@@ -16,9 +16,9 @@
 	.col-md-6{width: calc( 50% - 20px );}
 }
 @media  screen and (max-width: 768px) {
-	.col-em-2{width: calc( 16.666% - 20px );}
-	.col-em-3{width: calc( 25% - 20px );}
-	.col-em-6{width: calc( 50% - 20px );}
-	.col-em-8{width: calc( 66.666% - 20px );}
-	.col-em-12{width: calc( 100% - 20px );}
+	.col-sm-2{width: calc( 16.666% - 20px );}
+	.col-sm-3{width: calc( 25% - 20px );}
+	.col-sm-6{width: calc( 50% - 20px );}
+	.col-sm-8{width: calc( 66.666% - 20px );}
+	.col-sm-12{width: calc( 100% - 20px );}
 }
