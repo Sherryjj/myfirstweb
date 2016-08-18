@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+</head>
+<body>
+
+    <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+    <button id="button">确认填写</button>
+
+    <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+    <script type="text/javascript">
+
+    (function() {
+    /*	
+    在注释下方写下代码
+    给按钮button绑定一个点击事件
+    在事件处理函数中
+    获取aqi-input输入的值，并显示在aqi-display中
+    */
+        // var b = document.getElementById("button");
+        // b.onclick = function(){
+        //     document.getElementById("aqi-display").innerHTML = document.getElementById("aqi-input").value;
+        // };
+
+        // var b = document.getElementById("button");
+        // b.onclick = function(){
+        //   var num = document.getElementById("aqi-input").value;
+        //   var d = document.getElementById("aqi-display");
+        //   if (!isNaN(num) && num>=0 && num<=9999 && num != " ") {
+        //     d.innerHTML = num;
+        //   }else{
+        //     d.innerHTML = "请输入正确的数值";
+        //   }
+        // }
+
+        var b = document.getElementById("button");
+        b.onclick = function(){
+            var num = document.getElementById("aqi-input").value;
+            var d = document.getElementById("aqi-display");
+          num>=0 ? d.innerHTML = num : d.innerHTML = "请输入正确的数值";
+        }
+    })();
+    </script>
+</body>
+</html>
